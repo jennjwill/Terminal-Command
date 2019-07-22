@@ -1,0 +1,29 @@
+{
+  "name": "terminal-commands-node",
+  "version": "1.0.0",
+  "description": "terminal commands module",
+  "main": "index.js",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennjwill/Terminal-Command.git"
+  },
+  "keywords": [
+    "terminal",
+    "commands",
+    "node",
+    "bloc"
+  ],
+  "author": "jenn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennjwill/Terminal-Command/issues"
+  },
+  "homepage": "https://github.com/jennjwill/Terminal-Command#readme",
+  "devDependencies": {}
+}

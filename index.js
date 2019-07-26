@@ -8,4 +8,4 @@ terminalCommands.ls();
 terminalCommands.touch();
 terminalCommands.mkdir();
 
-console.log("your new Universally unique identifier is ${newUuid}");
+console.log(`your new Universally unique identifier is ${newUuid}`);

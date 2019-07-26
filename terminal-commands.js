@@ -18,9 +18,9 @@ module.exports.touch = () => {
   });
 };
 
-module.exports.mkdir = () => {
-  fs.mkdir("./dirName", { recursive: true }, err => {
+module.exports.mkdir = dirName => {
+  fs.mkdir(dirName, { recursive: true }, err => {
     if (err) throw err;
-    console.log("The dir has been created");
+    console.log(`The ${dirName} has been created`);
   });
 };
